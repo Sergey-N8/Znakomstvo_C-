@@ -17,9 +17,9 @@ for(; namber - 1 > namber_count & namber > 1;)
     Console.Write($"{namber_count}, ");
 }
 
-for(; namber + 1 < namber_count & namber < -1;)
+for(; namber < namber_count & namber < 0;)
 {
-    namber_count = namber_count - 2; //перенос
-    Console.Write($"{namber_count}, ");
+    Console.Write($"{namber_count}, "); 
+    namber_count = namber_count - 2;
 }
 

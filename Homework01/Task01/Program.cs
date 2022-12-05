@@ -6,9 +6,9 @@ a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
 */
 
-Console.WriteLine("Напишите первое число: ");
+Console.WriteLine("Введите первое число: ");
 string namberFirStr = Console.ReadLine();
-Console.WriteLine("Напишите второе число: ");
+Console.WriteLine("Введите второе число: ");
 string namberSecStr = Console.ReadLine();
 
 
@@ -17,12 +17,12 @@ int namberSec = Convert.ToInt32(namberSecStr);
 
 if (namberFir > namberSec)
 {
-    Console.WriteLine($"max = первое число = {namberFir}");
+    Console.WriteLine($"max = первое число = {namberFir}, min = второе число = {namberSec}");
 }
 
 else if (namberFir < namberSec)
 {
-    Console.WriteLine($"max = второе число = {namberSec}");
+    Console.WriteLine($"max = второе число = {namberSec}, min = первое число = {namberFir} ");
 }
 
 else
