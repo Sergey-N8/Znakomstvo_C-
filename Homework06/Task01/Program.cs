@@ -5,22 +5,6 @@
 
 1, -7, 567, 89, 223-> 3
 */
-/*
-string RemovingSpaces (string series)
-{
-  string seriesNew = "";
-  for (int i = 0; i < series.Length; i++)
-  {
-    if (series[i] != ' ') 
-    {
-      seriesNew += series[i];
-    }
-  }
-  return seriesNew;
-} 
-*/
-
-
 
 int[] InitArray(string[] massege)
 {
